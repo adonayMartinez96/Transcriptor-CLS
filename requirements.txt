@@ -1,0 +1,12 @@
+python-dotenv==1.0.0
+whisper==1.1.10
+openai-whisper==20231117
+torch==2.1.0
+torchaudio==2.1.0
+tk==0.1.0
+python-docx==0.8.11
+fpdf2==2.7.5
+requests==2.31.0
+tqdm==4.66.1
+numpy==1.26.0
+ffmpeg-python==0.2.0
