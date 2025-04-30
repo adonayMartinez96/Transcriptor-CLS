@@ -17,7 +17,7 @@ import json
 import sys
 import argparse
 
-# Configurar argumentos
+# Configurar argumentos git
 parser = argparse.ArgumentParser()
 parser.add_argument('--install-ffmpeg', action='store_true', help='Instalar FFmpeg automáticamente')
 args = parser.parse_args()
