@@ -1,0 +1,16 @@
+2025-04-29 18:12:29,217 - INFO - Iniciando aplicación de transcripción
+2025-04-29 18:12:32,041 - INFO - Modelo seleccionado: base
+2025-04-29 18:13:07,786 - DEBUG - Ruta ingresada por usuario: C:\Action!\Videotest.mp4
+2025-04-29 18:13:07,786 - ERROR - Archivo no encontrado: C:\Action!\Videotest.mp4
+2025-04-29 18:13:14,556 - INFO - Modelo seleccionado: base
+2025-04-29 18:13:21,599 - DEBUG - Ruta ingresada por usuario: C:\Action!\Video\test.mp4
+2025-04-29 18:13:21,600 - INFO - Iniciando transcripción para: C:\Action!\Video\test.mp4
+2025-04-29 18:13:21,600 - INFO - 
+Verificando archivo: C:\Action!\Video\test.mp4
+2025-04-29 18:13:21,604 - INFO - Ejecutando: ffmpeg -hide_banner -loglevel error -y -i C:\Action!\Video\test.mp4 -acodec pcm_s16le -ar 16000 -ac 1 C:\Users\User\AppData\Local\Temp\WhisperTemp\temp_300.wav
+2025-04-29 18:13:22,675 - INFO - Iniciando transcripción...
+2025-04-29 18:13:22,677 - ERROR - ERROR CRÍTICO
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\AppTranscripcionesVideos\transcriptorv2.py", line 123, in transcribir_video
+    resultado = model.transcribe(temp_file, fp16=False)
+UnboundLocalError: local variable 'model' referenced before assignment
